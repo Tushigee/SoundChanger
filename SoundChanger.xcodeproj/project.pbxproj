@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297553971A75CA8400BDA938 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297553961A75CA8400BDA938 /* PlaySoundsViewController.swift */; };
+		2999BF5A1A7738D500AA44C8 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2999BF591A7738D500AA44C8 /* RecordedAudio.swift */; };
+		29AB352D1A7483E700DE097C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB352C1A7483E700DE097C /* AppDelegate.swift */; };
+		29AB352F1A7483E700DE097C /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB352E1A7483E700DE097C /* RecordSoundsViewController.swift */; };
+		29AB35321A7483E700DE097C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AB35301A7483E700DE097C /* Main.storyboard */; };
+		29AB35341A7483E700DE097C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AB35331A7483E700DE097C /* Images.xcassets */; };
+		29AB35371A7483E700DE097C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AB35351A7483E700DE097C /* LaunchScreen.xib */; };
+		29AB35431A7483E700DE097C /* LovindaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB35421A7483E700DE097C /* LovindaTests.swift */; };
+		29BE7D531A75E8E9003D138E /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29BE7D521A75E8E9003D138E /* movie_quote.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29AB353D1A7483E700DE097C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29AB351F1A7483E700DE097C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29AB35261A7483E700DE097C;
+			remoteInfo = Lovinda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297553961A75CA8400BDA938 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		2999BF591A7738D500AA44C8 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		29AB35271A7483E700DE097C /* SoundChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AB352B1A7483E700DE097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AB352C1A7483E700DE097C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29AB352E1A7483E700DE097C /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		29AB35311A7483E700DE097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29AB35331A7483E700DE097C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29AB35361A7483E700DE097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29AB353C1A7483E700DE097C /* SoundChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundChangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AB35411A7483E700DE097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AB35421A7483E700DE097C /* LovindaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovindaTests.swift; sourceTree = "<group>"; };
+		29BE7D521A75E8E9003D138E /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29AB35241A7483E700DE097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AB35391A7483E700DE097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AB351E1A7483E700DE097C = {
+			isa = PBXGroup;
+			children = (
+				29AB35291A7483E700DE097C /* SoundChanger */,
+				29AB353F1A7483E700DE097C /* SoundChangerTests */,
+				29AB35281A7483E700DE097C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29AB35281A7483E700DE097C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29AB35271A7483E700DE097C /* SoundChanger.app */,
+				29AB353C1A7483E700DE097C /* SoundChangerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29AB35291A7483E700DE097C /* SoundChanger */ = {
+			isa = PBXGroup;
+			children = (
+				29AB352C1A7483E700DE097C /* AppDelegate.swift */,
+				29AB352E1A7483E700DE097C /* RecordSoundsViewController.swift */,
+				2999BF591A7738D500AA44C8 /* RecordedAudio.swift */,
+				29AB35301A7483E700DE097C /* Main.storyboard */,
+				297553961A75CA8400BDA938 /* PlaySoundsViewController.swift */,
+				29AB35331A7483E700DE097C /* Images.xcassets */,
+				29AB35351A7483E700DE097C /* LaunchScreen.xib */,
+				29AB352A1A7483E700DE097C /* Supporting Files */,
+			);
+			name = SoundChanger;
+			path = Lovinda;
+			sourceTree = "<group>";
+		};
+		29AB352A1A7483E700DE097C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29BE7D521A75E8E9003D138E /* movie_quote.mp3 */,
+				29AB352B1A7483E700DE097C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29AB353F1A7483E700DE097C /* SoundChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				29AB35421A7483E700DE097C /* LovindaTests.swift */,
+				29AB35401A7483E700DE097C /* Supporting Files */,
+			);
+			name = SoundChangerTests;
+			path = LovindaTests;
+			sourceTree = "<group>";
+		};
+		29AB35401A7483E700DE097C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29AB35411A7483E700DE097C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29AB35261A7483E700DE097C /* SoundChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AB35461A7483E700DE097C /* Build configuration list for PBXNativeTarget "SoundChanger" */;
+			buildPhases = (
+				29AB35231A7483E700DE097C /* Sources */,
+				29AB35241A7483E700DE097C /* Frameworks */,
+				29AB35251A7483E700DE097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundChanger;
+			productName = Lovinda;
+			productReference = 29AB35271A7483E700DE097C /* SoundChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29AB353B1A7483E700DE097C /* SoundChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AB35491A7483E700DE097C /* Build configuration list for PBXNativeTarget "SoundChangerTests" */;
+			buildPhases = (
+				29AB35381A7483E700DE097C /* Sources */,
+				29AB35391A7483E700DE097C /* Frameworks */,
+				29AB353A1A7483E700DE097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AB353E1A7483E700DE097C /* PBXTargetDependency */,
+			);
+			name = SoundChangerTests;
+			productName = LovindaTests;
+			productReference = 29AB353C1A7483E700DE097C /* SoundChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29AB351F1A7483E700DE097C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Battushig.M;
+				TargetAttributes = {
+					29AB35261A7483E700DE097C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					29AB353B1A7483E700DE097C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 29AB35261A7483E700DE097C;
+					};
+				};
+			};
+			buildConfigurationList = 29AB35221A7483E700DE097C /* Build configuration list for PBXProject "SoundChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29AB351E1A7483E700DE097C;
+			productRefGroup = 29AB35281A7483E700DE097C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29AB35261A7483E700DE097C /* SoundChanger */,
+				29AB353B1A7483E700DE097C /* SoundChangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29AB35251A7483E700DE097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AB35321A7483E700DE097C /* Main.storyboard in Resources */,
+				29AB35371A7483E700DE097C /* LaunchScreen.xib in Resources */,
+				29BE7D531A75E8E9003D138E /* movie_quote.mp3 in Resources */,
+				29AB35341A7483E700DE097C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AB353A1A7483E700DE097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29AB35231A7483E700DE097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2999BF5A1A7738D500AA44C8 /* RecordedAudio.swift in Sources */,
+				29AB352F1A7483E700DE097C /* RecordSoundsViewController.swift in Sources */,
+				297553971A75CA8400BDA938 /* PlaySoundsViewController.swift in Sources */,
+				29AB352D1A7483E700DE097C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29AB35381A7483E700DE097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29AB35431A7483E700DE097C /* LovindaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29AB353E1A7483E700DE097C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29AB35261A7483E700DE097C /* SoundChanger */;
+			targetProxy = 29AB353D1A7483E700DE097C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29AB35301A7483E700DE097C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AB35311A7483E700DE097C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29AB35351A7483E700DE097C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AB35361A7483E700DE097C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29AB35441A7483E700DE097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29AB35451A7483E700DE097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AB35471A7483E700DE097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lovinda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SoundChanger;
+			};
+			name = Debug;
+		};
+		29AB35481A7483E700DE097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lovinda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SoundChanger;
+			};
+			name = Release;
+		};
+		29AB354A1A7483E700DE097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LovindaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SoundChangerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovinda.app/Lovinda";
+			};
+			name = Debug;
+		};
+		29AB354B1A7483E700DE097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LovindaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SoundChangerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lovinda.app/Lovinda";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AB35221A7483E700DE097C /* Build configuration list for PBXProject "SoundChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AB35441A7483E700DE097C /* Debug */,
+				29AB35451A7483E700DE097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AB35461A7483E700DE097C /* Build configuration list for PBXNativeTarget "SoundChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AB35471A7483E700DE097C /* Debug */,
+				29AB35481A7483E700DE097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29AB35491A7483E700DE097C /* Build configuration list for PBXNativeTarget "SoundChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AB354A1A7483E700DE097C /* Debug */,
+				29AB354B1A7483E700DE097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29AB351F1A7483E700DE097C /* Project object */;
+}
